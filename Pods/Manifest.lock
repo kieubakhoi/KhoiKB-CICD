@@ -1,0 +1,21 @@
+PODS:
+  - AppCenter/Analytics (5.0.2):
+    - AppCenter/Core
+  - AppCenter/Core (5.0.2)
+  - AppCenter/Crashes (5.0.2):
+    - AppCenter/Core
+
+DEPENDENCIES:
+  - AppCenter/Analytics
+  - AppCenter/Crashes
+
+SPEC REPOS:
+  trunk:
+    - AppCenter
+
+SPEC CHECKSUMS:
+  AppCenter: 355ba776b273d30147c3ac385c558bec60a7d4b1
+
+PODFILE CHECKSUM: 863dbb26ac53e55a3fcd63020ea6d6fb82f1c4b4
+
+COCOAPODS: 1.12.0
