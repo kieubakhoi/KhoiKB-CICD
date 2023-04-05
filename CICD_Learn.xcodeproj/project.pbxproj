@@ -101,7 +101,6 @@
 				AD271BC64A497E392BA3E6A2 /* Pods-CICD_LearnTests.debug.xcconfig */,
 				EB0CD8E638F15024EBD8443B /* Pods-CICD_LearnTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
