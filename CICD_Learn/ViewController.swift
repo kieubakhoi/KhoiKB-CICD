@@ -35,8 +35,8 @@ class ViewController: UIViewController {
 
     @IBAction func invokeToSubmit(_ sender: UIButton) {
         Crashes.generateTestCrash()
+        nameLabel.text = "This name is: \(nameTextField.text)"
         Analytics.trackEvent("Submit Name", withProperties: ["name" : "\(nameTextField.text ?? "no data")"])
-        nameLabel.text = nameTextField.text
     }
 
 }
