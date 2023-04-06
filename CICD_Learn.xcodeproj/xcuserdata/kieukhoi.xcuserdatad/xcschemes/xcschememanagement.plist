@@ -6,8 +6,28 @@
 	<dict>
 		<key>CICD_Learn.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7C9A99BE29D6955A00D3A150</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C9A99D429D6955B00D3A150</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C9A99DE29D6955B00D3A150</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
