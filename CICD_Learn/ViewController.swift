@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet private weak var nameTextField: UITextField!
     @IBOutlet private weak var submitButton: UIButton!
     @IBOutlet private weak var nameLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,7 @@ class ViewController: UIViewController {
         AppCenter.start(withAppSecret: "aff0eb3b-70ba-4502-b0bd-7a46ca216405", services:[
           Crashes.self
         ])
+        dateLabel.text = "\(Date().formatted(date: .numeric, time: .standard))"
     }
     
     override func viewDidAppear(_ animated: Bool) {
