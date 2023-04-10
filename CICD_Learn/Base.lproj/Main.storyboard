@@ -38,10 +38,17 @@
                                     <action selector="invokeToSubmit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IA0-70-qli"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hs-N4-spG">
+                                <rect key="frame" x="174" y="55.000000000000007" width="42" height="20.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="1hs-N4-spG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="4fb-Yu-TeY"/>
                             <constraint firstItem="u29-GI-D6D" firstAttribute="top" secondItem="hSJ-hF-vjQ" secondAttribute="bottom" constant="40" id="9vD-Cp-o0I"/>
                             <constraint firstItem="OqJ-0t-bDU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BWR-Wi-ZN0"/>
                             <constraint firstItem="u29-GI-D6D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Swi-Qa-0eC"/>
@@ -49,9 +56,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hSJ-hF-vjQ" secondAttribute="trailing" constant="16" id="ixC-rt-2FN"/>
                             <constraint firstItem="hSJ-hF-vjQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="k6R-Zt-7iC"/>
                             <constraint firstItem="hSJ-hF-vjQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wtz-dS-6dF"/>
+                            <constraint firstItem="1hs-N4-spG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xsk-x1-rij"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="dateLabel" destination="1hs-N4-spG" id="i1H-5G-QcB"/>
                         <outlet property="nameLabel" destination="OqJ-0t-bDU" id="A3w-zw-5Bk"/>
                         <outlet property="nameTextField" destination="hSJ-hF-vjQ" id="M83-Qc-HXL"/>
                         <outlet property="submitButton" destination="u29-GI-D6D" id="Fcl-hA-GbL"/>
